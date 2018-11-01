@@ -1,0 +1,25 @@
+Begin Object Class=/Script/Engine.Material Name="03_-_Default"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/NewFolder/NewFolder/Poison_07_-_Default_BaseColor.Poison_07_-_Default_BaseColor"'
+      MaterialExpressionEditorX=-160
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=CC17983B483E88A6FC1F0483019CA8FA
+      Material=Material'"03_-_Default"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EditorX=128
+   EditorY=32
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=05A8ACA0428B02A72C30BAB987CFD3E5
+   ReferencedTextureGuids(0)=B73610004395C944F3029FA18507491E
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=A69FD7814948BD39C269D4B51EE44FBC
+End Object

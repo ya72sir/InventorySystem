@@ -1,0 +1,65 @@
+Begin Object Class=/Script/Engine.Material Name="01_-_Default"
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      DefaultValue=0.195238
+      ParameterName="None_2"
+      ExpressionGUID=A8BCD2E34DC56F0256C07F8D36E43534
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=43549FA74E5278F563D6D5A7ECC3248E
+      Material=Material'"01_-_Default"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      ParameterName="None_1"
+      ExpressionGUID=761B0D0C428F85307D871CB1D3BE256F
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=43549FA74E5278F563D6D5A7ECC3248E
+      Material=Material'"01_-_Default"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=50.000000
+      ExpressionGUID=19CE3D1C466F0509396C188B813EBF09
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=43549FA74E5278F563D6D5A7ECC3248E
+      Material=Material'"01_-_Default"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.330857,G=0.311810,B=0.673714,A=-0.000000)
+      ExpressionGUID=D93C0DCA401D2E6D40E7B08E87FAA224
+      MaterialExpressionEditorX=-288
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=893EFB6246F6BB95E74B888CBBD89663
+      Material=Material'"01_-_Default"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Specular=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"')
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"')
+   Opacity=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"')
+   BlendMode=BLEND_Translucent
+   TranslucencyLightingMode=TLM_Surface
+   Expressions(0)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(1)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(2)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(3)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   ParameterGroupData(3)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=226717484F8DACEC4C62788164C73E17
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=F03EEDF34D9A8D1E81BBE4AF937969AA
+End Object
